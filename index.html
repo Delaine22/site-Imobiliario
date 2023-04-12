@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Imobiliario</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="asset/style.css">
+    <script src="asset/index.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#property" class="nav-link">Properties</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="whtp-button">
+                <button><a href="#">Whatsapp</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="asset/images/menu-icon (1).png" width="50px" height="50px" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#property" class="nav-link">Properties</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="whtp-button">
+                <button><a href="#">Whatsapp</a></button>
+            </div>
+        </div>
+    </header>
+   <section id="home">
+        <div class="home">
+            <h1>
+                Conquer <span style="color:#51B989 ;">The dream</span> <br>
+                <span style="color:#51B989;"> property</span> here!
+            </h1>
+            <p>
+                DR Imoveis has been a reference in the market for over 25 <br>
+                years. We have a specialized servuce and we have a <br>
+                great knowledge in the real state and civil construction sector. 
+            </p>
+            <input type="button" value="Saiba Mais" id="btn">
+        </div>
+        <div class="home-building">
+            <img src="asset/images/home-imovel.jpeg" alt="imovel">
+        </div>
+    </section>
+    <div class="menu-drop-down">
+       <ul class="ul-dropdown">
+            <li><button><a href="#">Search for the property</a></button></li>
+            <li><button><a href="#">State of the property<i style="color: #51B989;" class="fa-regular fa-caret-down"></i></a></button>
+             <div class="sub-menu">
+                <ul>
+                    <li><a href="#">New Buildings</a></li>
+                    <li><a href="#">Good State</a></li>
+                    <li><a href="#">To recover</a></li>
+                </ul>
+             </div><!--closing class sub-menu-->
+            </li>
+            <li><button><a href="#">Property Type <i style="color: #51B989;" class="fa-regular fa-caret-down"></i></a></button>
+                <div class="sub-menu">
+                    <ul>
+                        <li><a href="#">House</a></li>
+                        <li><a href="#">Flat</a></li>
+                        <li><a href="#">PentHouse</a></li>
+                    </ul>
+                 </div><!--closing class sub-menu-->
+            </li>
+       </ul>
+       <div class="buscar-btn">
+        <button id="buscar">Search</button>
+       </div>
+    </div><!--closing menu drop down-->
+    <section id="property">
+        <div class="imoveis-em-destaques">
+            <div class="card">
+                <div class="imovel-img">
+                    <img src="asset/images/imovel em descate 1.webp" alt="imovel">
+                </div>
+                <div class="location">
+                    <p><b>Praia de Bombas</b></p> <br>
+                    <address>Rua Currupiau em Bombas - SC</address>
+                </div>
+                <div class="descricao">
+                    <p><i style="color: #51B989;" class="fa-solid fa-bed"></i> 2 Bedrooms</p>
+                    <p><i style="color: #51B989;" class="fa-solid fa-car"></i>1 Garage</p>
+                </div>
+                <hr>
+                <div class="price">
+                    <p><b>R$ 480.000,00</b></p>
+                    <button id="saiba-mais-btn">Know more</button>
+                </div>
+            </div><!--closing card-->
+            <div class="card">
+                <div class="imovel-img">
+                    <img src="asset/images/Imovel em destaque 2.webp" alt="imovel">
+                </div>
+                <div class="location">
+                    <p><b>Apartamento Itapema-Edificio Vivace</b></p> <br>
+                    <address><i style="color: #51B989;"class="fa-solid fa-location-dot"></i>Rua 298,401, Meia Praia, Itapena</address>
+                </div>
+                <div class="descricao">
+                    <p><i style="color: #51B989;" class="fa-solid fa-bed"></i> 3 Bedrooms</p>
+                    <p><i style="color: #51B989;" class="fa-solid fa-car"></i>1 Garage</p>
+                </div>
+                <hr>
+                <div class="price">
+                    <p><b>R$ 1.280.000</b></p>
+                    <button id="saiba-mais-btn">Know more</button>
+                </div>
+            </div><!--closing card-->
+            <div class="card">
+                <div class="imovel-img">
+                    <img src="asset/images/Imovel em destaque 3.webp" alt="imovel">
+                </div>
+                <div class="location">
+                    <p><b>Castao de Bombas</b></p> <br>
+                    <address><i style="color: #51B989;"class="fa-solid fa-location-dot"></i> Rua Aguia,n-332-Bombas-Bombinhas/SC</address>
+                </div>
+                <div class="descricao">
+                    <p><i style="color: #51B989;" class="fa-solid fa-bed"></i> 4 Bedrooms</p>
+                    <p><i style="color: #51B989;" class="fa-solid fa-car"></i>2 Garage</p>
+                </div>
+                <hr>
+                <div class="price">
+                    <p><b>R$ 1.280.000</b></p>
+                    <button id="saiba-mais-btn">Know more</button>
+                </div>
+            </div><!--closing card-->
+            <div class="card">
+                <div class="imovel-img">
+                    <img src="asset/images/Imovel em destaque 4.jpeg" alt="imovel">
+                </div>
+                <div class="location">
+                    <p><b>Castao de Bombas Ap com 180 mqdrd</b></p> <br>
+                    <address><i style="color: #51B989;"class="fa-solid fa-location-dot"></i> Rua Aguia,n-332-Bombas-Bombinhas/SC</address>
+                </div>
+                <div class="descricao">
+                    <p><i style="color: #51B989;" class="fa-solid fa-bed"></i> 3 Bedrooms</p>
+                    <p><i style="color: #51B989;" class="fa-solid fa-car"></i>2 Grage</p>
+                </div>
+                <hr>
+                <div class="price">
+                    <p><b>R$ 1.280.000</b></p>
+                    <button id="saiba-mais-btn">Know more</button>
+                </div>
+            </div><!--closing card-->
+                <div class="card">
+                    <div class="imovel-img">
+                        <img src="asset/images/Imovel em destaque 5.webp" alt="imovel">
+                    </div>
+                    <div class="location">
+                        <p><b>Residencial Barbados</b></p> <br>
+                        <address><i style="color: #51B989;"class="fa-solid fa-location-dot"></i> Rua Tucano,54-Bombas-Bombinhas/SC</address>
+                    </div>
+                    <div class="descricao">
+                        <p><i style="color: #51B989;" class="fa-solid fa-bed"></i> 2 Bedrooms</p>
+                        <p><i style="color: #51B989;" class="fa-solid fa-car"></i> 2 Garage</p>
+                    </div>
+                    <hr>
+                    <div class="price">
+                        <p><b>R$ 1.280.000</b></p>
+                        <button id="saiba-mais-btn">Know more</button>
+                    </div>
+            </div><!--closing card--> <br>
+        </div><!--closing div "imoveis em destaques"-->
+        <div class="btn-see-more">
+            <button id="saiba-mais-btn">See More</button>
+        </div>
+    </section><!--closing section "property"-->
+    <section id="about">
+        <div class="imovel-article">
+            <img src="asset/images/about-imovel.webp" alt="imovel">
+        </div><!--closing div-->
+        <div class="about-us">
+            <h2>About <span style="color: #51B989;">Us</span></h2>
+            <p>
+                we offer a complete advice to find the right house or apartment for you. They <br>
+                are already more than 200 properties sold. <br>
+                When it comes to real estate deals, we provide our clients with the best <br>
+                experience, in addition to ensuring a safe negotiation.
+            </p>
+            <div class="clients">
+                <p>
+                    <span style="color: #51B989; font-size: 35px;"><b>+ 300</b></span><br>
+                    Satisfied Customer
+                </p>
+                <p>
+                    <span style="color: #51B989; font-size: 35px;"><b>+ 300</b></span><br>
+                    Satisfied Customer
+                </p>
+                <p>
+                    <span style="color: #51B989; font-size: 35px;"><b>+ 300</b></span><br>
+                    Satisfied Customer
+                </p>
+            </div>
+        </div><!--closing div about Us-->
+    </section><!--closing section "about"-->
+    <section id="contact">
+        <div class="form">
+            <h2>Get in <span style="color: #51B989;">Touch</span></h2>
+            <form>
+                <label for="name">Name</label>
+                <input type="name" placeholder="name" id="name" required>
+                <label for="number">Telephone</label>
+                <input type="number" placeholder="telephone" id="phone" required>
+                <label for="email">Email</label>
+                <input type="emasil" placeholder="email" id="email" required>
+                <textarea name="textarea" placeholder="message..." id="textarea" cols="30" rows="10"></textarea>
+                <button>Send</button>
+            </form>
+        </div><!--closing div form-->
+        <div class="address">
+            <h2>Contact <span style="color: #51B989;">Informations</span></h2>
+            <p><i style="color: #51B989;"class="fa-solid fa-location-dot"></i><b>Address</b></p>
+            <p>
+                Loren ipsun dolar sala <br>
+                street 123 <br>
+                Loren Ipsun building
+            </p>
+            <p><i style="color: #51B989;" class="fa-light fa-envelope"></i>Email</p>
+            <i>Juniorcorrector05@gmail.com</i>
+        </div><!--closing div Address-->
+        <div class="telephone">
+            <p><i style="color: #51B989;" class="fa-sharp fa-solid fa-phone"></i> Telephone</p>
+            <p>+ 27 (60) 4347 103</p>
+            <button>Whatsapp</button>
+        </div><!--closing div telephone-->
+    </section><!--closing section contact-->
+</body>
+</html>
