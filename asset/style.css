@@ -475,6 +475,9 @@ margin-top: 20px;
     width: 400px;
     height: 300px;
 }
+.card{
+    box-shadow: none;
+}
 #about-us, .clients{
     margin-left: 10px;
 }
