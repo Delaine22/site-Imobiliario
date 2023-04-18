@@ -468,6 +468,9 @@ margin-top: 20px;
 }
 }
 @media screen and (max-width: 450px){
+.logo h1 {
+font-size: 30px;
+    }
 .home-building{
     margin: auto;
 } 
@@ -502,4 +505,33 @@ margin-top: 20px;
 .social-media .icon{
     display: none;
 }
+}
+@media screen and (max-width:320px){
+    .home-building img{
+        width: 320px;
+    }
+    .card{
+    width: 380px;
+    height: 495px;
+    }
+    .imovel-img img{
+    width: 380px;
+    height: 350px;
+    }
+    form{
+    width: 350px;
+    height: 400px;
+    }
+    #name, #phone, #email{
+    width: 300px;
+    height: 30px;
+    }
+    textarea{
+    width: 300px ;
+    height: 90px;
+    }
+    .form button{
+    width: 300px;
+    height: 35px;
+    }
 }
