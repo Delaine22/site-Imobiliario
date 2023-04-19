@@ -506,6 +506,7 @@ font-size: 30px;
     display: none;
 }
 }
+@media screen and (max-width:390px){
     .home-building img{
         width: 320px;
     }
